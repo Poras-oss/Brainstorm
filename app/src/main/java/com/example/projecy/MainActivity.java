@@ -26,9 +26,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-       // startActivity(new Intent(this, ResearchNavActivity.class));
+        startActivity(new Intent(this, Login.class));
 
-        Client client = new Client(this)
+     /*   Client client = new Client(this)
                 .setEndpoint("https://cloud.appwrite.io/v1")
                 .setProject("64722d1bb0d7b159699f")
                 .setSelfSigned(true);// For self signed certificates, only use for development
@@ -55,7 +55,6 @@ public class MainActivity extends AppCompatActivity {
                         }
 
                         Log.d("Appwrite", result.toString());
-
                     })
             );
         } catch (AppwriteException e) {
@@ -63,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
             throw new RuntimeException(e);
         }
 
-
+*/
 
 
     }

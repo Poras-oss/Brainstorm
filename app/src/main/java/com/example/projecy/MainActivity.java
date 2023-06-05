@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        startActivity(new Intent(this, Login.class));
+        startActivity(new Intent(this, WysiWygActivity.class));
 
      /*   Client client = new Client(this)
                 .setEndpoint("https://cloud.appwrite.io/v1")
